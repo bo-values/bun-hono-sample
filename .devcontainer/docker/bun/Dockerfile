@@ -11,7 +11,3 @@ RUN sudo mkdir -p ${BUN_INSTALL} \
     && chown -R ${USERNAME} /bun
 
 ENV PATH=${BUN_INSTALL}/bin:${PATH}
-
-# [Optional] Uncomment this section to install additional OS packages.
-# RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-#    && apt-get -y install --no-install-recommends <your-package-list-here>
